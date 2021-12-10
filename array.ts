@@ -28,7 +28,25 @@ names[1] = "Dev";
 numbers[4] = 0;
 student[1] = "Devangga"; 
 
-console.log(names[0]);
-console.log(names[1]);
-console.log(numbers[4]);
-console.log(student[1]);
+// console.log(names[0]);
+// console.log(names[1]);
+// console.log(numbers[4]);
+// console.log(student[1]);
+
+// WE CAN ADDING NEW DATA TO AN ARRAY BY typing ==> variablesName.push();
+
+let namesTwice : Array<string> = [];
+namesTwice.push("Dev");
+namesTwice.push("Angga");
+namesTwice.push("Kertawijaya");
+
+console.log(namesTwice);
+
+// AND WE CNA ALSO DELETING DATA OF AN ARRAY AND TUPLE WITH TYPING ==> delete variablesName [i];
+delete namesTwice [0];
+delete namesTwice [2];
+
+delete student [0];
+
+console.log(namesTwice);
+console.log(student);
